@@ -4,7 +4,7 @@
   "description": "example how-to-npm project setup",
   "main": "index.js",
   "scripts": {
-    "test": "test command"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
