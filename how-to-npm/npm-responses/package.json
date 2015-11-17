@@ -1,6 +1,6 @@
 {
   "name": "@cmoses873/npm-responses",
-  "version": "1.0.0",
+  "version": "v1.0.1",
   "description": "example how-to-npm project setup",
   "main": "index.js",
   "scripts": {
