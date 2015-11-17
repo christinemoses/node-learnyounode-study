@@ -14,5 +14,8 @@
     "nodeschool"
   ],
   "author": "unknown",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  }
 }
