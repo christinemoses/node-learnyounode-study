@@ -1,0 +1,56 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/christinemoses/.nvm/versions/node/v4.2.2/bin/node',
+1 verbose cli   '/Users/christinemoses/.nvm/versions/node/v4.2.2/bin/npm',
+1 verbose cli   '--color=always',
+1 verbose cli   'view',
+1 verbose cli   '@cmoses873/npm-responses' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.2
+4 silly mapToRegistry name @cmoses873/npm-responses
+5 silly mapToRegistry scope (from package name) @cmoses873
+6 verbose mapToRegistry no registry URL found in name for scope @cmoses873
+7 silly mapToRegistry using default registry
+8 silly mapToRegistry registry http://localhost:15443/
+9 silly mapToRegistry uri http://localhost:15443/@cmoses873%2fnpm-responses
+10 verbose request uri http://localhost:15443/@cmoses873%2fnpm-responses
+11 verbose request no auth needed
+12 info attempt registry request try #1 at 4:56:47 PM
+13 verbose request id 707a7e7ad9622f0e
+14 http request GET http://localhost:15443/@cmoses873%2fnpm-responses
+15 http 404 http://localhost:15443/@cmoses873%2fnpm-responses
+16 verbose headers { 'content-type': 'application/json',
+16 verbose headers   date: 'Tue, 17 Nov 2015 21:56:47 GMT',
+16 verbose headers   connection: 'keep-alive',
+16 verbose headers   'content-length': '19' }
+17 silly get cb [ 404,
+17 silly get   { 'content-type': 'application/json',
+17 silly get     date: 'Tue, 17 Nov 2015 21:56:47 GMT',
+17 silly get     connection: 'keep-alive',
+17 silly get     'content-length': '19' } ]
+18 verbose stack Error: missing : @cmoses873/npm-responses
+18 verbose stack     at makeError (/Users/christinemoses/.nvm/versions/node/v4.2.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+18 verbose stack     at CachingRegistryClient.<anonymous> (/Users/christinemoses/.nvm/versions/node/v4.2.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+18 verbose stack     at Request._callback (/Users/christinemoses/.nvm/versions/node/v4.2.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+18 verbose stack     at Request.self.callback (/Users/christinemoses/.nvm/versions/node/v4.2.2/lib/node_modules/npm/node_modules/request/request.js:198:22)
+18 verbose stack     at emitTwo (events.js:87:13)
+18 verbose stack     at Request.emit (events.js:172:7)
+18 verbose stack     at Request.<anonymous> (/Users/christinemoses/.nvm/versions/node/v4.2.2/lib/node_modules/npm/node_modules/request/request.js:1063:14)
+18 verbose stack     at emitOne (events.js:82:20)
+18 verbose stack     at Request.emit (events.js:169:7)
+18 verbose stack     at IncomingMessage.<anonymous> (/Users/christinemoses/.nvm/versions/node/v4.2.2/lib/node_modules/npm/node_modules/request/request.js:1009:12)
+19 verbose statusCode 404
+20 verbose pkgid @cmoses873/npm-responses
+21 verbose cwd /Users/christinemoses/WDI/node-learnyounode-study/how-to-npm/npm-responses
+22 error Darwin 14.5.0
+23 error argv "/Users/christinemoses/.nvm/versions/node/v4.2.2/bin/node" "/Users/christinemoses/.nvm/versions/node/v4.2.2/bin/npm" "--color=always" "view" "@cmoses873/npm-responses"
+24 error node v4.2.2
+25 error npm  v2.14.7
+26 error code E404
+27 error 404 missing : @cmoses873/npm-responses
+27 error 404
+27 error 404 '@cmoses873/npm-responses' is not in the npm registry.
+27 error 404 You should bug the author to publish it (or use the name yourself!)
+27 error 404
+27 error 404 Note that you can also install from a
+27 error 404 tarball, folder, http url, or git url.
+28 verbose exit [ 1, true ]
